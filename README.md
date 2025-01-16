@@ -48,5 +48,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=azmanio&show_icons=true&locale=en&theme=transparent" alt="azmanio" />
 </p>
 <p align="center">
-  <img align="center" src="https://streak-stats.demolab.com/?user=azmanio&theme=transparent" alt="azmanio" />
+<!--   <img align="center" src="https://streak-stats.demolab.com/?user=azmanio&theme=transparent" alt="azmanio" /> -->
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1)](https://git.io/streak-stats)
 </p>
