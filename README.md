@@ -5,13 +5,9 @@
   <img src="https://komarev.com/ghpvc/?username=azmanio&label=Profile%20views&color=0e75b6&style=flat" alt="azmanio" />
 </p>
 
-- 🌱 I’m currently learning **Laravel**
-
 - 👨‍💻 All of my projects are available at [https://azmanio-porto.vercel.app/](https://azmanio-porto.vercel.app/)
 
 - 📫 How to reach me **rahmanazis11@gmail.com**
-
-- ⚡ Fun fact **I'm Cringe but I'm Free**
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
@@ -33,6 +29,7 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" alt="laravel" width="40" height="40"/>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/yii/yii-original.svg" alt="yii" width="40" height="40"/>
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/> 
         <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
           <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
