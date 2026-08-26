@@ -41,7 +41,7 @@ I'm always interested in learning new technologies, improving software quality, 
 
 🔗 **Portfolio**
 
-https://azmanio-porto.vercel.app
+https://azmanio.vercel.app
 
 ---
 
