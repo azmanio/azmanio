@@ -30,8 +30,8 @@ I'm always interested in learning new technologies, improving software quality, 
 
 - 💻 Building scalable web applications
 - 🌱 Learning Software Architecture & Cloud Technologies
-- ⚡ Backend Development with Laravel & PHP
-- 🎨 Modern Frontend Development with Vue.js
+- ⚡ Backend Development with Laravel, PHP, Yii2, Express JS, Python
+- 🎨 Modern Frontend Development with Vue.js, React, Laravel
 - 📊 Data Visualization with Microsoft Power BI
 - 🤝 Open to Software Engineer opportunities
 
@@ -110,32 +110,31 @@ https://azmanio.vercel.app
 
 ## 📊 GitHub Statistics
 
-<table>
-  <tr>
-    <td width="50%">
-      <img
+<p align="center">
+  <img
         src="./profile/stats.svg"
         width="100%"
         alt="GitHub Statistics"
       />
+</p>
+<table style="border: none; border-collapse: collapse;" align="center">
+  <tr style="border: none;">
+    <td width="50%" style="border: none;">
+      <img
+        src="./profile/streak.svg"
+        width="100%"
+        alt="GitHub Contribution Streak"
+      />
     </td>
-    <td width="50%">
+    <td width="50%" style="border: none;">
       <img
         src="./profile/top-langs.svg"
-        width="100%"
+        width="80%"
         alt="Top Languages"
       />
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <img
-    src="./profile/streak.svg"
-    width="80%"
-    alt="GitHub Contribution Streak"
-  />
-</p>
 
 ### 🐍 Contribution Activity
 
@@ -148,26 +147,6 @@ https://azmanio.vercel.app
   <img
     src="./profile/github-snake-dark.svg#gh-dark-mode-only"
     alt="GitHub Contribution Snake Dark"
-  />
-</p>
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img
-    src="./profile/stats.svg"
-    width="100%"
-    alt="Azis Rahman Prasetio GitHub Statistics"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="./profile/contributions.svg"
-    width="100%"
-    alt="Azis Rahman Prasetio GitHub Contribution Activity"
   />
 </p>
 
