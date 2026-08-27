@@ -110,17 +110,44 @@ https://azmanio.vercel.app
 
 ## 📊 GitHub Statistics
 
+<table>
+  <tr>
+    <td width="50%">
+      <img
+        src="./profile/stats.svg"
+        width="100%"
+        alt="GitHub Statistics"
+      />
+    </td>
+    <td width="50%">
+      <img
+        src="./profile/top-langs.svg"
+        width="100%"
+        alt="Top Languages"
+      />
+    </td>
+  </tr>
+</table>
+
 <p align="center">
   <img
-    src="./profile/stats.svg"
-    width="48%"
-    alt="GitHub Statistics"
+    src="./profile/streak.svg"
+    width="80%"
+    alt="GitHub Contribution Streak"
+  />
+</p>
+
+### 🐍 Contribution Activity
+
+<p align="center">
+  <img
+    src="./profile/github-snake.svg#gh-light-mode-only"
+    alt="GitHub Contribution Snake"
   />
 
   <img
-    src="./profile/top-langs.svg"
-    width="48%"
-    alt="Top Languages"
+    src="./profile/github-snake-dark.svg#gh-dark-mode-only"
+    alt="GitHub Contribution Snake Dark"
   />
 </p>
 
