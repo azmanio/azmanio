@@ -1,324 +1,480 @@
 import fs from "node:fs/promises";
 
 const GITHUB_GRAPHQL_URL = "https://api.github.com/graphql";
+const GITHUB_USERNAME = "azmanio";
+const OUTPUT_DIR = "profile";
 
-const username = "azmanio";
 const token = process.env.GH_STATS_TOKEN;
 
 if (!token) {
-  throw new Error("GH_STATS_TOKEN is not set.");
+	throw new Error(
+		"GH_STATS_TOKEN tidak ditemukan. Pastikan secret sudah tersedia di GitHub Actions."
+	);
 }
 
-const currentYear = new Date().getUTCFullYear();
-const from = `${currentYear - 1}-01-01T00:00:00Z`;
-const to = new Date().toISOString();
+/**
+ * Membuat rentang tanggal maksimal 1 tahun.
+ *
+ * GitHub GraphQL ContributionsCollection tidak menerima
+ * rentang waktu lebih dari 1 tahun.
+ */
+function getLastYearRange() {
+	const to = new Date();
+	const from = new Date(to);
 
-const query = `
-  query($login: String!, $from: DateTime!, $to: DateTime!) {
-    user(login: $login) {
-      login
-      name
+	from.setUTCFullYear(from.getUTCFullYear() - 1);
 
-      contributionsCollection(from: $from, to: $to) {
-        totalCommitContributions
-        totalIssueContributions
-        totalPullRequestContributions
-        totalPullRequestReviewContributions
-        totalRepositoriesWithContributedCommits
-        totalRepositoriesWithContributedIssues
-        totalRepositoriesWithContributedPullRequests
-        totalRepositoryContributions
-        restrictedContributionsCount
-        hasAnyRestrictedContributions
-
-        contributionCalendar {
-          totalContributions
-          weeks {
-            contributionDays {
-              date
-              contributionCount
-              weekday
-              color
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
-async function fetchGraphQL() {
-  const response = await fetch(GITHUB_GRAPHQL_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-      Accept: "application/vnd.github+json",
-    },
-    body: JSON.stringify({
-      query,
-      variables: {
-        login: username,
-        from,
-        to,
-      },
-    }),
-  });
-
-  if (!response.ok) {
-    throw new Error(
-      `GitHub GraphQL request failed: ${response.status} ${response.statusText}`
-    );
-  }
-
-  const payload = await response.json();
-
-  if (payload.errors?.length) {
-    console.error(JSON.stringify(payload.errors, null, 2));
-    throw new Error("GitHub GraphQL returned errors.");
-  }
-
-  return payload.data.user;
+	return {
+		from: from.toISOString(),
+		to: to.toISOString(),
+	};
 }
 
+/**
+ * Escape karakter khusus XML agar aman digunakan
+ * di dalam SVG.
+ */
 function escapeXml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&apos;");
+	return String(value)
+		.replaceAll("&", "&amp;")
+		.replaceAll("<", "&lt;")
+		.replaceAll(">", "&gt;")
+		.replaceAll('"', "&quot;")
+		.replaceAll("'", "&apos;");
 }
 
+/**
+ * Format angka menggunakan separator.
+ *
+ * Contoh:
+ * 1163 -> 1,163
+ */
 function formatNumber(value) {
-  return new Intl.NumberFormat("en-US").format(value);
+	return new Intl.NumberFormat("en-US").format(value);
 }
 
+/**
+ * Menjalankan request GraphQL ke GitHub.
+ */
+async function fetchGraphQL(query, variables) {
+	const response = await fetch(GITHUB_GRAPHQL_URL, {
+		method: "POST",
+		headers: {
+			Authorization: `Bearer ${token}`,
+			"Content-Type": "application/json",
+			Accept: "application/vnd.github+json",
+		},
+		body: JSON.stringify({
+			query,
+			variables,
+		}),
+	});
+
+	if (!response.ok) {
+		const body = await response.text();
+
+		throw new Error(
+			`GitHub GraphQL request gagal: ${response.status} ${response.statusText}\n${body}`
+		);
+	}
+
+	const payload = await response.json();
+
+	if (payload.errors?.length) {
+		console.error(
+			"GitHub GraphQL errors:",
+			JSON.stringify(payload.errors, null, 2)
+		);
+
+		throw new Error("GitHub GraphQL mengembalikan error.");
+	}
+
+	return payload.data;
+}
+
+/**
+ * Query utama untuk mengambil data contribution.
+ */
+function buildQuery() {
+	return `
+		query (
+			$login: String!,
+			$from: DateTime!,
+			$to: DateTime!
+		) {
+			user(login: $login) {
+				login
+				name
+
+				contributionsCollection(
+					from: $from,
+					to: $to
+				) {
+					totalCommitContributions
+					totalIssueContributions
+					totalPullRequestContributions
+					totalPullRequestReviewContributions
+					totalRepositoriesWithContributedCommits
+					totalRepositoryContributions
+
+					restrictedContributionsCount
+					hasAnyRestrictedContributions
+
+					contributionCalendar {
+						totalContributions
+						weeks {
+							contributionDays {
+								date
+								contributionCount
+								weekday
+								color
+							}
+						}
+					}
+				}
+			}
+		}
+	`;
+}
+
+/**
+ * Membuat stats.svg.
+ */
 function createStatsSvg(user) {
-  const contributions = user.contributionsCollection;
+	const collection = user.contributionsCollection;
 
-  const stats = [
-    {
-      label: "Contributions",
-      value: contributions.contributionCalendar.totalContributions,
-    },
-    {
-      label: "Commits",
-      value: contributions.totalCommitContributions,
-    },
-    {
-      label: "Pull Requests",
-      value: contributions.totalPullRequestContributions,
-    },
-    {
-      label: "Issues",
-      value: contributions.totalIssueContributions,
-    },
-    {
-      label: "Reviews",
-      value: contributions.totalPullRequestReviewContributions,
-    },
-  ];
+	const statistics = [
+		{
+			label: "Contributions",
+			value: collection.contributionCalendar.totalContributions,
+		},
+		{
+			label: "Commits",
+			value: collection.totalCommitContributions,
+		},
+		{
+			label: "Pull Requests",
+			value: collection.totalPullRequestContributions,
+		},
+		{
+			label: "Issues",
+			value: collection.totalIssueContributions,
+		},
+		{
+			label: "Reviews",
+			value: collection.totalPullRequestReviewContributions,
+		},
+	];
 
-  const cards = stats.map((item, index) => {
-    const x = 40 + index * 150;
+	const startX = 32;
+	const cardWidth = 150;
+	const cardGap = 10;
 
-    return `
-      <g transform="translate(${x}, 40)">
-        <text
-          x="0"
-          y="0"
-          fill="#94a3b8"
-          font-size="12"
-          font-family="Inter, Arial, sans-serif"
-        >
-          ${escapeXml(item.label)}
-        </text>
+	const cards = statistics
+		.map((item, index) => {
+			const x = startX + index * (cardWidth + cardGap);
 
-        <text
-          x="0"
-          y="34"
-          fill="#f8fafc"
-          font-size="26"
-          font-weight="700"
-          font-family="Inter, Arial, sans-serif"
-        >
-          ${formatNumber(item.value)}
-        </text>
-      </g>
-    `;
-  });
+			return `
+				<g transform="translate(${x}, 52)">
+					<text
+						x="0"
+						y="0"
+						fill="#8b949e"
+						font-size="12"
+						font-family="Inter, Arial, sans-serif"
+					>
+						${escapeXml(item.label)}
+					</text>
 
-  const restricted = contributions.restrictedContributionsCount;
+					<text
+						x="0"
+						y="34"
+						fill="#f0f6fc"
+						font-size="25"
+						font-weight="700"
+						font-family="Inter, Arial, sans-serif"
+					>
+						${formatNumber(item.value)}
+					</text>
+				</g>
+			`;
+		})
+		.join("\n");
 
-  return `
+	const restrictedText = collection.hasAnyRestrictedContributions
+		? `
+			<text
+				x="32"
+				y="132"
+				fill="#8b949e"
+				font-size="10"
+				font-family="Inter, Arial, sans-serif"
+			>
+				Includes private/internal contribution activity
+			</text>
+		`
+		: "";
+
+	return `
 <svg
-  width="820"
-  height="150"
-  viewBox="0 0 820 150"
-  xmlns="http://www.w3.org/2000/svg"
+	xmlns="http://www.w3.org/2000/svg"
+	width="820"
+	height="160"
+	viewBox="0 0 820 160"
+	role="img"
+	aria-label="GitHub statistics for ${escapeXml(
+		user.name || user.login
+	)}"
 >
-  <rect
-    x="0.5"
-    y="0.5"
-    width="819"
-    height="149"
-    rx="16"
-    fill="#161b22"
-    stroke="#30363d"
-  />
+	<rect
+		x="0.5"
+		y="0.5"
+		width="819"
+		height="159"
+		rx="14"
+		fill="#161b22"
+		stroke="#30363d"
+	/>
 
-  <text
-    x="40"
-    y="24"
-    fill="#58a6ff"
-    font-size="14"
-    font-weight="600"
-    font-family="Inter, Arial, sans-serif"
-  >
-    ${escapeXml(user.name || user.login)} · GitHub Activity
-  </text>
+	<text
+		x="32"
+		y="27"
+		fill="#58a6ff"
+		font-size="14"
+		font-weight="600"
+		font-family="Inter, Arial, sans-serif"
+	>
+		${escapeXml(user.name || user.login)} · GitHub Activity
+	</text>
 
-  ${cards.join("\n")}
+	${cards}
 
-  ${
-    restricted > 0
-      ? `
-    <text
-      x="40"
-      y="128"
-      fill="#8b949e"
-      font-size="11"
-      font-family="Inter, Arial, sans-serif"
-    >
-      Includes private/internal contribution activity
-    </text>
-  `
-      : ""
-  }
+	${restrictedText}
 </svg>
-  `.trim();
+	`.trim();
 }
 
-function createContributionSvg(user) {
-  const calendar =
-    user.contributionsCollection.contributionCalendar;
+/**
+ * Membuat contribution calendar SVG.
+ */
+function createContributionsSvg(user) {
+	const collection = user.contributionsCollection;
+	const calendar = collection.contributionCalendar;
 
-  const days = calendar.weeks.flatMap((week) => week.contributionDays);
+	const days = calendar.weeks.flatMap(
+		(week) => week.contributionDays
+	);
 
-  const squareSize = 11;
-  const gap = 3;
-  const left = 50;
-  const top = 35;
+	const squareSize = 11;
+	const gap = 3;
 
-  const width = 820;
-  const height = 180;
+	const left = 32;
+	const top = 45;
 
-  const rects = days.map((day, index) => {
-    const weekIndex = Math.floor(index / 7);
-    const dayIndex = day.weekday;
+	const width = 820;
+	const height = 175;
 
-    const x = left + weekIndex * (squareSize + gap);
-    const y = top + dayIndex * (squareSize + gap);
+	const contributionCells = days
+		.map((day, index) => {
+			const weekIndex = Math.floor(index / 7);
+			const dayIndex = day.weekday;
 
-    return `
-      <rect
-        x="${x}"
-        y="${y}"
-        width="${squareSize}"
-        height="${squareSize}"
-        rx="2"
-        fill="${day.color}"
-      >
-        <title>
-          ${escapeXml(day.date)}: ${day.contributionCount} contributions
-        </title>
-      </rect>
-    `;
-  });
+			const x = left + weekIndex * (squareSize + gap);
+			const y = top + dayIndex * (squareSize + gap);
 
-  return `
+			const contributionCount = escapeXml(
+				day.contributionCount
+			);
+
+			const date = escapeXml(day.date);
+
+			return `
+				<rect
+					x="${x}"
+					y="${y}"
+					width="${squareSize}"
+					height="${squareSize}"
+					rx="2"
+					fill="${day.color}"
+				>
+					<title>${date}: ${contributionCount} contributions</title>
+				</rect>
+			`;
+		})
+		.join("\n");
+
+	return `
 <svg
-  width="${width}"
-  height="${height}"
-  viewBox="0 0 ${width} ${height}"
-  xmlns="http://www.w3.org/2000/svg"
+	xmlns="http://www.w3.org/2000/svg"
+	width="${width}"
+	height="${height}"
+	viewBox="0 0 ${width} ${height}"
+	role="img"
+	aria-label="GitHub contribution activity"
 >
-  <rect
-    x="0.5"
-    y="0.5"
-    width="${width - 1}"
-    height="${height - 1}"
-    rx="16"
-    fill="#161b22"
-    stroke="#30363d"
-  />
+	<rect
+		x="0.5"
+		y="0.5"
+		width="${width - 1}"
+		height="${height - 1}"
+		rx="14"
+		fill="#161b22"
+		stroke="#30363d"
+	/>
 
-  <text
-    x="30"
-    y="24"
-    fill="#f0f6fc"
-    font-size="14"
-    font-weight="600"
-    font-family="Inter, Arial, sans-serif"
-  >
-    Contribution Activity · ${formatNumber(calendar.totalContributions)} total
-  </text>
+	<text
+		x="32"
+		y="25"
+		fill="#f0f6fc"
+		font-size="14"
+		font-weight="600"
+		font-family="Inter, Arial, sans-serif"
+	>
+		Contribution Activity · ${formatNumber(
+			calendar.totalContributions
+		)} contributions
+	</text>
 
-  ${rects.join("\n")}
+	${contributionCells}
+
+	<text
+		x="32"
+		y="160"
+		fill="#8b949e"
+		font-size="10"
+		font-family="Inter, Arial, sans-serif"
+	>
+		${escapeXml(
+			collection.hasAnyRestrictedContributions
+				? "Private/internal contribution activity is included."
+				: "GitHub contribution activity for the last year."
+		)}
+	</text>
 </svg>
-  `.trim();
+	`.trim();
 }
 
+/**
+ * Menulis file SVG ke filesystem.
+ */
+async function writeFile(filePath, content) {
+	await fs.writeFile(filePath, content, "utf8");
+
+	console.log(`Generated: ${filePath}`);
+}
+
+/**
+ * Main application.
+ */
 async function main() {
-  console.log(`Fetching GitHub activity for ${username}...`);
+	const { from, to } = getLastYearRange();
 
-  const user = await fetchGraphQL();
+	console.log(
+		`Fetching GitHub activity for ${GITHUB_USERNAME}...`
+	);
 
-  if (!user) {
-    throw new Error(`GitHub user '${username}' was not found.`);
-  }
+	console.log(`Period: ${from} → ${to}`);
 
-  const statsSvg = createStatsSvg(user);
-  const contributionsSvg = createContributionSvg(user);
+	const query = buildQuery();
 
-  await fs.mkdir("profile", { recursive: true });
+	const data = await fetchGraphQL(query, {
+		login: GITHUB_USERNAME,
+		from,
+		to,
+	});
 
-  await fs.writeFile(
-    "profile/stats.svg",
-    statsSvg,
-    "utf8"
-  );
+	const user = data?.user;
 
-  await fs.writeFile(
-    "profile/contributions.svg",
-    contributionsSvg,
-    "utf8"
-  );
+	if (!user) {
+		throw new Error(
+			`GitHub user '${GITHUB_USERNAME}' tidak ditemukan.`
+		);
+	}
 
-  const collection = user.contributionsCollection;
+	const collection = user.contributionsCollection;
 
-  console.log("Generated:");
-  console.log(" - profile/stats.svg");
-  console.log(" - profile/contributions.svg");
+	const stats = {
+		contributions:
+			collection.contributionCalendar.totalContributions,
 
-  console.log({
-    contributions:
-      collection.contributionCalendar.totalContributions,
-    commits:
-      collection.totalCommitContributions,
-    pullRequests:
-      collection.totalPullRequestContributions,
-    issues:
-      collection.totalIssueContributions,
-    reviews:
-      collection.totalPullRequestReviewContributions,
-    restricted:
-      collection.restrictedContributionsCount,
-  });
+		commits:
+			collection.totalCommitContributions,
+
+		pullRequests:
+			collection.totalPullRequestContributions,
+
+		issues:
+			collection.totalIssueContributions,
+
+		reviews:
+			collection.totalPullRequestReviewContributions,
+
+		repositories:
+			collection.totalRepositoriesWithContributedCommits,
+
+		restricted:
+			collection.restrictedContributionsCount,
+
+		hasRestricted:
+			collection.hasAnyRestrictedContributions,
+	};
+
+	console.log("\nGitHub Contribution Summary");
+	console.log("--------------------------------");
+	console.log(
+		`Total Contributions : ${formatNumber(
+			stats.contributions
+		)}`
+	);
+	console.log(
+		`Total Commits       : ${formatNumber(stats.commits)}`
+	);
+	console.log(
+		`Pull Requests       : ${formatNumber(
+			stats.pullRequests
+		)}`
+	);
+	console.log(
+		`Issues              : ${formatNumber(stats.issues)}`
+	);
+	console.log(
+		`Reviews             : ${formatNumber(stats.reviews)}`
+	);
+	console.log(
+		`Repositories        : ${formatNumber(
+			stats.repositories
+		)}`
+	);
+	console.log(
+		`Restricted          : ${formatNumber(stats.restricted)}`
+	);
+	console.log(
+		`Has Restricted      : ${stats.hasRestricted}`
+	);
+	console.log("--------------------------------\n");
+
+	await fs.mkdir(OUTPUT_DIR, {
+		recursive: true,
+	});
+
+	const statsSvg = createStatsSvg(user);
+	const contributionsSvg = createContributionsSvg(user);
+
+	await writeFile(
+		`${OUTPUT_DIR}/stats.svg`,
+		statsSvg
+	);
+
+	await writeFile(
+		`${OUTPUT_DIR}/contributions.svg`,
+		contributionsSvg
+	);
+
+	console.log("\nGitHub statistics generated successfully.");
 }
 
 main().catch((error) => {
-  console.error(error);
-  process.exit(1);
+	console.error("\nFailed to generate GitHub statistics.");
+	console.error(error);
+	process.exit(1);
 });
