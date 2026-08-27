@@ -108,18 +108,20 @@ https://azmanio.vercel.app
 
 ---
 
-## 📈 GitHub Statistics
+## 📊 GitHub Statistics
 
 <p align="center">
+  <img
+    src="./profile/stats.svg"
+    width="48%"
+    alt="GitHub Statistics"
+  />
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=azmanio&show_icons=true&theme=transparent&hide_border=true"/>
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=azmanio&layout=compact&theme=transparent&hide_border=true"/>
-
-</p>
-
-<p align="center">
-<img width="70%" src="https://streak-stats.demolab.com?user=azmanio&theme=transparent&hide_border=true"/>
+  <img
+    src="./profile/top-langs.svg"
+    width="48%"
+    alt="Top Languages"
+  />
 </p>
 
 ---
