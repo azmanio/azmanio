@@ -153,6 +153,26 @@ https://azmanio.vercel.app
 
 ---
 
+## 📊 GitHub Activity
+
+<p align="center">
+  <img
+    src="./profile/stats.svg"
+    width="100%"
+    alt="Azis Rahman Prasetio GitHub Statistics"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="./profile/contributions.svg"
+    width="100%"
+    alt="Azis Rahman Prasetio GitHub Contribution Activity"
+  />
+</p>
+
+---
+
 ## 💡 Quote
 
 > *"Great software is built by continuously learning, collaborating, and solving meaningful problems."*
