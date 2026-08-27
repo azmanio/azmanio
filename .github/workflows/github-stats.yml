@@ -15,10 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ==========================================
-      # Checkout Repository
-      # ==========================================
-
       - name: Checkout repository
         uses: actions/checkout@v6
 
@@ -30,12 +26,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: >-
-            username=azmanio
-            &show_icons=true
-            &hide_border=true
-            &theme=transparent
-            &rank_icon=github
+          options: username=azmanio&show_icons=true&hide_border=true&theme=transparent&rank_icon=github
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -47,12 +38,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: >-
-            username=azmanio
-            &layout=compact
-            &langs_count=8
-            &hide_border=true
-            &theme=transparent
+          options: username=azmanio&layout=compact&langs_count=8&hide_border=true&theme=transparent
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -61,18 +47,14 @@ jobs:
       # ==========================================
 
       - name: Generate GitHub Streak
-        uses: DenverCoder1/github-readme-streak-stats@v1
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: >-
-            user=azmanio
-            &theme=transparent
-            &hide_border=true
-            &date_format=j%20M%5B%20Y%5D
+          options: user=azmanio&theme=transparent&hide_border=true&disable_animations=true
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # ==========================================
-      # GitHub Contribution Snake
+      # GitHub Snake
       # ==========================================
 
       - name: Generate GitHub Snake
@@ -82,9 +64,11 @@ jobs:
           outputs: |
             profile/github-snake.svg?palette=github-light
             profile/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # ==========================================
-      # Commit Generated Files
+      # Commit generated files
       # ==========================================
 
       - name: Commit generated stats
