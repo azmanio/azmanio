@@ -113,6 +113,29 @@ https://azmanio.vercel.app
 
 ---
 
+## 📊 GitHub Statistics
+
+<table style="border: none; border-collapse: collapse;" align="center">
+  <tr style="border: none;">
+    <td width="50%" style="border: none;">
+      <img
+        src="./profile/streak.svg"
+        width="100%"
+        alt="GitHub Contribution Streak"
+      />
+    </td>
+    <td width="50%" style="border: none;">
+      <img
+        src="./profile/top-langs.svg"
+        width="75%"
+        alt="Top Languages"
+      />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 💡 Quote
 
 > *"Great software is built by continuously learning, collaborating, and solving meaningful problems."*
