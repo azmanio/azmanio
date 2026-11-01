@@ -24,34 +24,10 @@
 		font-weight="600"
 		font-family="Inter, Arial, sans-serif"
 	>
-		Contribution Activity · 893 contributions
+		Contribution Activity · 890 contributions
 	</text>
 
 	
-				<rect
-					x="32"
-					y="115"
-					width="11"
-					height="11"
-					rx="2"
-					fill="#ffee4a"
-				>
-					<title>2025-10-31: 3 contributions</title>
-				</rect>
-			
-
-				<rect
-					x="32"
-					y="129"
-					width="11"
-					height="11"
-					rx="2"
-					fill="#ebedf0"
-				>
-					<title>2025-11-01: 0 contributions</title>
-				</rect>
-			
-
 				<rect
 					x="32"
 					y="45"
@@ -70,7 +46,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2025-11-03: 10 contributions</title>
 				</rect>
@@ -82,7 +58,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2025-11-04: 9 contributions</title>
 				</rect>
@@ -94,7 +70,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-05: 2 contributions</title>
 				</rect>
@@ -106,26 +82,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-06: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="46"
+					x="32"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-07: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="46"
+					x="32"
 					y="129"
 					width="11"
 					height="11"
@@ -142,7 +118,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-09: 2 contributions</title>
 				</rect>
@@ -154,7 +130,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-10: 4 contributions</title>
 				</rect>
@@ -166,7 +142,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2025-11-11: 9 contributions</title>
 				</rect>
@@ -178,7 +154,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-12: 7 contributions</title>
 				</rect>
@@ -190,31 +166,31 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-13: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="60"
+					x="46"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-14: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="60"
+					x="46"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#03001c"
+					fill="#216e39"
 				>
 					<title>2025-11-15: 19 contributions</title>
 				</rect>
@@ -238,7 +214,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-17: 2 contributions</title>
 				</rect>
@@ -250,7 +226,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-18: 5 contributions</title>
 				</rect>
@@ -262,7 +238,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-19: 2 contributions</title>
 				</rect>
@@ -274,26 +250,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-20: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="74"
+					x="60"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-21: 5 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="74"
+					x="60"
 					y="129"
 					width="11"
 					height="11"
@@ -322,7 +298,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-24: 2 contributions</title>
 				</rect>
@@ -334,7 +310,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-11-25: 4 contributions</title>
 				</rect>
@@ -346,7 +322,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-11-26: 2 contributions</title>
 				</rect>
@@ -365,7 +341,7 @@
 			
 
 				<rect
-					x="88"
+					x="74"
 					y="115"
 					width="11"
 					height="11"
@@ -377,7 +353,7 @@
 			
 
 				<rect
-					x="88"
+					x="74"
 					y="129"
 					width="11"
 					height="11"
@@ -406,7 +382,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-01: 1 contributions</title>
 				</rect>
@@ -418,7 +394,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-02: 5 contributions</title>
 				</rect>
@@ -430,7 +406,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-03: 6 contributions</title>
 				</rect>
@@ -442,26 +418,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#03001c"
+					fill="#216e39"
 				>
 					<title>2025-12-04: 12 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="102"
+					x="88"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-05: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="102"
+					x="88"
 					y="129"
 					width="11"
 					height="11"
@@ -490,7 +466,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-08: 1 contributions</title>
 				</rect>
@@ -502,7 +478,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-09: 7 contributions</title>
 				</rect>
@@ -514,7 +490,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-10: 4 contributions</title>
 				</rect>
@@ -526,26 +502,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-11: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="116"
+					x="102"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-12: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="116"
+					x="102"
 					y="129"
 					width="11"
 					height="11"
@@ -574,7 +550,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-15: 5 contributions</title>
 				</rect>
@@ -586,7 +562,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-16: 2 contributions</title>
 				</rect>
@@ -598,7 +574,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-17: 3 contributions</title>
 				</rect>
@@ -617,19 +593,19 @@
 			
 
 				<rect
-					x="130"
+					x="116"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-19: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="130"
+					x="116"
 					y="129"
 					width="11"
 					height="11"
@@ -658,7 +634,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-22: 1 contributions</title>
 				</rect>
@@ -670,7 +646,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-23: 5 contributions</title>
 				</rect>
@@ -701,19 +677,19 @@
 			
 
 				<rect
-					x="144"
+					x="130"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-26: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="144"
+					x="130"
 					y="129"
 					width="11"
 					height="11"
@@ -742,7 +718,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2025-12-29: 4 contributions</title>
 				</rect>
@@ -754,7 +730,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2025-12-30: 3 contributions</title>
 				</rect>
@@ -785,7 +761,7 @@
 			
 
 				<rect
-					x="158"
+					x="144"
 					y="115"
 					width="11"
 					height="11"
@@ -797,7 +773,7 @@
 			
 
 				<rect
-					x="158"
+					x="144"
 					y="129"
 					width="11"
 					height="11"
@@ -826,7 +802,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-05: 4 contributions</title>
 				</rect>
@@ -838,7 +814,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-06: 4 contributions</title>
 				</rect>
@@ -850,7 +826,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-07: 5 contributions</title>
 				</rect>
@@ -869,19 +845,19 @@
 			
 
 				<rect
-					x="172"
+					x="158"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-01-09: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="172"
+					x="158"
 					y="129"
 					width="11"
 					height="11"
@@ -910,7 +886,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-01-12: 2 contributions</title>
 				</rect>
@@ -922,7 +898,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-13: 4 contributions</title>
 				</rect>
@@ -934,7 +910,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-14: 5 contributions</title>
 				</rect>
@@ -946,14 +922,14 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-01-15: 9 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="186"
+					x="172"
 					y="115"
 					width="11"
 					height="11"
@@ -965,7 +941,7 @@
 			
 
 				<rect
-					x="186"
+					x="172"
 					y="129"
 					width="11"
 					height="11"
@@ -994,7 +970,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-19: 5 contributions</title>
 				</rect>
@@ -1006,7 +982,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-01-20: 3 contributions</title>
 				</rect>
@@ -1018,7 +994,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-01-21: 8 contributions</title>
 				</rect>
@@ -1030,26 +1006,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-01-22: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="200"
+					x="186"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-23: 5 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="200"
+					x="186"
 					y="129"
 					width="11"
 					height="11"
@@ -1090,7 +1066,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-01-27: 2 contributions</title>
 				</rect>
@@ -1102,7 +1078,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-01-28: 1 contributions</title>
 				</rect>
@@ -1114,26 +1090,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-01-29: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="214"
+					x="200"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-01-30: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="214"
+					x="200"
 					y="129"
 					width="11"
 					height="11"
@@ -1162,7 +1138,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-02-02: 7 contributions</title>
 				</rect>
@@ -1186,7 +1162,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-02-04: 4 contributions</title>
 				</rect>
@@ -1198,26 +1174,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-02-05: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="228"
+					x="214"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-02-06: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="228"
+					x="214"
 					y="129"
 					width="11"
 					height="11"
@@ -1246,7 +1222,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-02-09: 2 contributions</title>
 				</rect>
@@ -1258,7 +1234,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-02-10: 9 contributions</title>
 				</rect>
@@ -1270,7 +1246,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-02-11: 8 contributions</title>
 				</rect>
@@ -1282,26 +1258,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-02-12: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="242"
+					x="228"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-02-13: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="242"
+					x="228"
 					y="129"
 					width="11"
 					height="11"
@@ -1366,26 +1342,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-02-19: 6 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="256"
+					x="242"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-02-20: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="256"
+					x="242"
 					y="129"
 					width="11"
 					height="11"
@@ -1414,7 +1390,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-02-23: 7 contributions</title>
 				</rect>
@@ -1426,7 +1402,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-02-24: 5 contributions</title>
 				</rect>
@@ -1438,7 +1414,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-02-25: 4 contributions</title>
 				</rect>
@@ -1457,19 +1433,19 @@
 			
 
 				<rect
-					x="270"
+					x="256"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-02-27: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="270"
+					x="256"
 					y="129"
 					width="11"
 					height="11"
@@ -1498,7 +1474,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-03-02: 1 contributions</title>
 				</rect>
@@ -1510,7 +1486,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-03-03: 4 contributions</title>
 				</rect>
@@ -1522,7 +1498,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-03-04: 5 contributions</title>
 				</rect>
@@ -1534,26 +1510,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-03-05: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="284"
+					x="270"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-03-06: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="284"
+					x="270"
 					y="129"
 					width="11"
 					height="11"
@@ -1582,7 +1558,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-03-09: 3 contributions</title>
 				</rect>
@@ -1594,7 +1570,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-03-10: 2 contributions</title>
 				</rect>
@@ -1618,26 +1594,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-03-12: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="298"
+					x="284"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-03-13: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="298"
+					x="284"
 					y="129"
 					width="11"
 					height="11"
@@ -1690,7 +1666,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-03-18: 4 contributions</title>
 				</rect>
@@ -1709,7 +1685,7 @@
 			
 
 				<rect
-					x="312"
+					x="298"
 					y="115"
 					width="11"
 					height="11"
@@ -1721,7 +1697,7 @@
 			
 
 				<rect
-					x="312"
+					x="298"
 					y="129"
 					width="11"
 					height="11"
@@ -1793,7 +1769,7 @@
 			
 
 				<rect
-					x="326"
+					x="312"
 					y="115"
 					width="11"
 					height="11"
@@ -1805,7 +1781,7 @@
 			
 
 				<rect
-					x="326"
+					x="312"
 					y="129"
 					width="11"
 					height="11"
@@ -1877,7 +1853,7 @@
 			
 
 				<rect
-					x="340"
+					x="326"
 					y="115"
 					width="11"
 					height="11"
@@ -1889,7 +1865,7 @@
 			
 
 				<rect
-					x="340"
+					x="326"
 					y="129"
 					width="11"
 					height="11"
@@ -1942,7 +1918,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-04-08: 3 contributions</title>
 				</rect>
@@ -1961,7 +1937,7 @@
 			
 
 				<rect
-					x="354"
+					x="340"
 					y="115"
 					width="11"
 					height="11"
@@ -1973,7 +1949,7 @@
 			
 
 				<rect
-					x="354"
+					x="340"
 					y="129"
 					width="11"
 					height="11"
@@ -2002,7 +1978,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-13: 5 contributions</title>
 				</rect>
@@ -2026,7 +2002,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-15: 7 contributions</title>
 				</rect>
@@ -2038,31 +2014,31 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-04-16: 10 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="368"
+					x="354"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-17: 5 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="368"
+					x="354"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-04-18: 9 contributions</title>
 				</rect>
@@ -2098,7 +2074,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-21: 4 contributions</title>
 				</rect>
@@ -2110,7 +2086,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-22: 6 contributions</title>
 				</rect>
@@ -2129,19 +2105,19 @@
 			
 
 				<rect
-					x="382"
+					x="368"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#03001c"
+					fill="#216e39"
 				>
 					<title>2026-04-24: 17 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="382"
+					x="368"
 					y="129"
 					width="11"
 					height="11"
@@ -2158,7 +2134,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-26: 5 contributions</title>
 				</rect>
@@ -2170,7 +2146,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-04-27: 2 contributions</title>
 				</rect>
@@ -2182,7 +2158,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-28: 7 contributions</title>
 				</rect>
@@ -2194,7 +2170,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-29: 7 contributions</title>
 				</rect>
@@ -2206,14 +2182,14 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-04-30: 7 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="396"
+					x="382"
 					y="115"
 					width="11"
 					height="11"
@@ -2225,7 +2201,7 @@
 			
 
 				<rect
-					x="396"
+					x="382"
 					y="129"
 					width="11"
 					height="11"
@@ -2254,7 +2230,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-05-04: 6 contributions</title>
 				</rect>
@@ -2266,7 +2242,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-05-05: 6 contributions</title>
 				</rect>
@@ -2278,7 +2254,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-05-06: 4 contributions</title>
 				</rect>
@@ -2297,19 +2273,19 @@
 			
 
 				<rect
-					x="410"
+					x="396"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-05-08: 7 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="410"
+					x="396"
 					y="129"
 					width="11"
 					height="11"
@@ -2338,7 +2314,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-05-11: 8 contributions</title>
 				</rect>
@@ -2350,7 +2326,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-12: 2 contributions</title>
 				</rect>
@@ -2362,7 +2338,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-13: 3 contributions</title>
 				</rect>
@@ -2381,7 +2357,7 @@
 			
 
 				<rect
-					x="424"
+					x="410"
 					y="115"
 					width="11"
 					height="11"
@@ -2393,7 +2369,7 @@
 			
 
 				<rect
-					x="424"
+					x="410"
 					y="129"
 					width="11"
 					height="11"
@@ -2434,7 +2410,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-05-19: 10 contributions</title>
 				</rect>
@@ -2446,7 +2422,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-20: 1 contributions</title>
 				</rect>
@@ -2458,26 +2434,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-21: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="438"
+					x="424"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-22: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="438"
+					x="424"
 					y="129"
 					width="11"
 					height="11"
@@ -2494,7 +2470,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-24: 1 contributions</title>
 				</rect>
@@ -2506,7 +2482,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-05-25: 4 contributions</title>
 				</rect>
@@ -2518,7 +2494,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-05-26: 4 contributions</title>
 				</rect>
@@ -2530,7 +2506,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-27: 1 contributions</title>
 				</rect>
@@ -2542,31 +2518,31 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-28: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="452"
+					x="438"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-29: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="452"
+					x="438"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-05-30: 1 contributions</title>
 				</rect>
@@ -2602,7 +2578,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-06-02: 3 contributions</title>
 				</rect>
@@ -2614,7 +2590,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-03: 5 contributions</title>
 				</rect>
@@ -2626,26 +2602,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-04: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="466"
+					x="452"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-05: 5 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="466"
+					x="452"
 					y="129"
 					width="11"
 					height="11"
@@ -2662,7 +2638,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-06-07: 2 contributions</title>
 				</rect>
@@ -2674,7 +2650,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-08: 5 contributions</title>
 				</rect>
@@ -2686,7 +2662,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-06-09: 3 contributions</title>
 				</rect>
@@ -2698,7 +2674,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-10: 7 contributions</title>
 				</rect>
@@ -2710,26 +2686,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-11: 6 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="480"
+					x="466"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-12: 5 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="480"
+					x="466"
 					y="129"
 					width="11"
 					height="11"
@@ -2782,7 +2758,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-06-17: 1 contributions</title>
 				</rect>
@@ -2794,26 +2770,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-06-18: 9 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="494"
+					x="480"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-06-19: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="494"
+					x="480"
 					y="129"
 					width="11"
 					height="11"
@@ -2842,7 +2818,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-22: 6 contributions</title>
 				</rect>
@@ -2885,7 +2861,7 @@
 			
 
 				<rect
-					x="508"
+					x="494"
 					y="115"
 					width="11"
 					height="11"
@@ -2897,7 +2873,7 @@
 			
 
 				<rect
-					x="508"
+					x="494"
 					y="129"
 					width="11"
 					height="11"
@@ -2926,7 +2902,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-06-29: 7 contributions</title>
 				</rect>
@@ -2938,7 +2914,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-06-30: 3 contributions</title>
 				</rect>
@@ -2950,7 +2926,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-01: 4 contributions</title>
 				</rect>
@@ -2962,26 +2938,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-02: 5 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="522"
+					x="508"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-03: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="522"
+					x="508"
 					y="129"
 					width="11"
 					height="11"
@@ -3010,7 +2986,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-06: 1 contributions</title>
 				</rect>
@@ -3022,7 +2998,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-07-07: 9 contributions</title>
 				</rect>
@@ -3034,7 +3010,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-08: 5 contributions</title>
 				</rect>
@@ -3046,26 +3022,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-09: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="536"
+					x="522"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-10: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="536"
+					x="522"
 					y="129"
 					width="11"
 					height="11"
@@ -3082,7 +3058,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-12: 1 contributions</title>
 				</rect>
@@ -3094,7 +3070,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-07-13: 8 contributions</title>
 				</rect>
@@ -3106,7 +3082,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-14: 3 contributions</title>
 				</rect>
@@ -3118,7 +3094,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-15: 4 contributions</title>
 				</rect>
@@ -3130,14 +3106,14 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-16: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="550"
+					x="536"
 					y="115"
 					width="11"
 					height="11"
@@ -3149,12 +3125,12 @@
 			
 
 				<rect
-					x="550"
+					x="536"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-18: 2 contributions</title>
 				</rect>
@@ -3178,7 +3154,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-20: 5 contributions</title>
 				</rect>
@@ -3190,7 +3166,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-07-21: 10 contributions</title>
 				</rect>
@@ -3202,7 +3178,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-22: 4 contributions</title>
 				</rect>
@@ -3214,26 +3190,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-23: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="564"
+					x="550"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-24: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="564"
+					x="550"
 					y="129"
 					width="11"
 					height="11"
@@ -3262,7 +3238,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-27: 4 contributions</title>
 				</rect>
@@ -3274,7 +3250,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-28: 4 contributions</title>
 				</rect>
@@ -3286,7 +3262,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-07-29: 3 contributions</title>
 				</rect>
@@ -3298,26 +3274,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-30: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="578"
+					x="564"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-07-31: 6 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="578"
+					x="564"
 					y="129"
 					width="11"
 					height="11"
@@ -3346,7 +3322,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-03: 2 contributions</title>
 				</rect>
@@ -3358,7 +3334,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-04: 1 contributions</title>
 				</rect>
@@ -3370,7 +3346,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-08-05: 4 contributions</title>
 				</rect>
@@ -3382,31 +3358,31 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-06: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="592"
+					x="578"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-07: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="592"
+					x="578"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-08: 1 contributions</title>
 				</rect>
@@ -3430,7 +3406,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#03001c"
+					fill="#216e39"
 				>
 					<title>2026-08-10: 21 contributions</title>
 				</rect>
@@ -3442,7 +3418,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-11: 3 contributions</title>
 				</rect>
@@ -3454,7 +3430,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-08-12: 7 contributions</title>
 				</rect>
@@ -3466,14 +3442,14 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-08-13: 9 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="606"
+					x="592"
 					y="115"
 					width="11"
 					height="11"
@@ -3485,7 +3461,7 @@
 			
 
 				<rect
-					x="606"
+					x="592"
 					y="129"
 					width="11"
 					height="11"
@@ -3526,7 +3502,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-18: 3 contributions</title>
 				</rect>
@@ -3538,7 +3514,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-08-19: 9 contributions</title>
 				</rect>
@@ -3550,26 +3526,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-20: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="620"
+					x="606"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-21: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="620"
+					x="606"
 					y="129"
 					width="11"
 					height="11"
@@ -3622,7 +3598,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-08-26: 6 contributions</title>
 				</rect>
@@ -3634,31 +3610,31 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#03001c"
+					fill="#216e39"
 				>
 					<title>2026-08-27: 21 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="634"
+					x="620"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#03001c"
+					fill="#216e39"
 				>
 					<title>2026-08-28: 14 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="634"
+					x="620"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-08-29: 1 contributions</title>
 				</rect>
@@ -3682,7 +3658,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-08-31: 9 contributions</title>
 				</rect>
@@ -3694,7 +3670,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-09-01: 10 contributions</title>
 				</rect>
@@ -3706,7 +3682,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#03001c"
+					fill="#216e39"
 				>
 					<title>2026-09-02: 13 contributions</title>
 				</rect>
@@ -3718,26 +3694,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-03: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="648"
+					x="634"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-09-04: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="648"
+					x="634"
 					y="129"
 					width="11"
 					height="11"
@@ -3766,7 +3742,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-09-07: 5 contributions</title>
 				</rect>
@@ -3778,7 +3754,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-08: 2 contributions</title>
 				</rect>
@@ -3802,31 +3778,31 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-10: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="662"
+					x="648"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-09-11: 6 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="662"
+					x="648"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-09-12: 4 contributions</title>
 				</rect>
@@ -3850,7 +3826,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-09-14: 5 contributions</title>
 				</rect>
@@ -3862,7 +3838,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-09-15: 4 contributions</title>
 				</rect>
@@ -3874,7 +3850,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#fe9600"
+					fill="#30a14e"
 				>
 					<title>2026-09-16: 8 contributions</title>
 				</rect>
@@ -3893,19 +3869,19 @@
 			
 
 				<rect
-					x="676"
+					x="662"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-18: 2 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="676"
+					x="662"
 					y="129"
 					width="11"
 					height="11"
@@ -3934,7 +3910,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-21: 1 contributions</title>
 				</rect>
@@ -3946,7 +3922,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-22: 1 contributions</title>
 				</rect>
@@ -3970,31 +3946,31 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-24: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="690"
+					x="676"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-09-25: 5 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="690"
+					x="676"
 					y="129"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-26: 3 contributions</title>
 				</rect>
@@ -4018,7 +3994,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-28: 2 contributions</title>
 				</rect>
@@ -4042,7 +4018,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-09-30: 2 contributions</title>
 				</rect>
@@ -4061,19 +4037,19 @@
 			
 
 				<rect
-					x="704"
+					x="690"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-02: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="704"
+					x="690"
 					y="129"
 					width="11"
 					height="11"
@@ -4102,7 +4078,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-05: 1 contributions</title>
 				</rect>
@@ -4114,7 +4090,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-06: 2 contributions</title>
 				</rect>
@@ -4126,7 +4102,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-10-07: 4 contributions</title>
 				</rect>
@@ -4138,14 +4114,14 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-08: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="718"
+					x="704"
 					y="115"
 					width="11"
 					height="11"
@@ -4157,7 +4133,7 @@
 			
 
 				<rect
-					x="718"
+					x="704"
 					y="129"
 					width="11"
 					height="11"
@@ -4198,7 +4174,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-13: 1 contributions</title>
 				</rect>
@@ -4229,7 +4205,7 @@
 			
 
 				<rect
-					x="732"
+					x="718"
 					y="115"
 					width="11"
 					height="11"
@@ -4241,7 +4217,7 @@
 			
 
 				<rect
-					x="732"
+					x="718"
 					y="129"
 					width="11"
 					height="11"
@@ -4270,7 +4246,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-19: 1 contributions</title>
 				</rect>
@@ -4306,14 +4282,14 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-22: 1 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="746"
+					x="732"
 					y="115"
 					width="11"
 					height="11"
@@ -4325,7 +4301,7 @@
 			
 
 				<rect
-					x="746"
+					x="732"
 					y="129"
 					width="11"
 					height="11"
@@ -4366,7 +4342,7 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-27: 1 contributions</title>
 				</rect>
@@ -4390,26 +4366,26 @@
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffee4a"
+					fill="#9be9a8"
 				>
 					<title>2026-10-29: 3 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="760"
+					x="746"
 					y="115"
 					width="11"
 					height="11"
 					rx="2"
-					fill="#ffc501"
+					fill="#40c463"
 				>
 					<title>2026-10-30: 4 contributions</title>
 				</rect>
 			
 
 				<rect
-					x="760"
+					x="746"
 					y="129"
 					width="11"
 					height="11"
@@ -4417,6 +4393,18 @@
 					fill="#ebedf0"
 				>
 					<title>2026-10-31: 0 contributions</title>
+				</rect>
+			
+
+				<rect
+					x="760"
+					y="45"
+					width="11"
+					height="11"
+					rx="2"
+					fill="#ebedf0"
+				>
+					<title>2026-11-01: 0 contributions</title>
 				</rect>
 			
 
